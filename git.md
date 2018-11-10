@@ -1,3 +1,4 @@
+```sh
 git init
 git status
 git add . #pro nový soubor

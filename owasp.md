@@ -59,6 +59,9 @@ grep -Pn -C 1 -f reg test.html
 Burp spider
 nikto
 
+##Testing buffer overflow
+Test fromat string information leakage
+`http://hostname/cgi-bin/query.cgi?name=john%x.%x.%x&code=45765%x.%x`
 
 
 

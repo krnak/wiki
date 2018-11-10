@@ -1,3 +1,4 @@
+```sh
 pwd #print current directory
 clear
 echo ${array0[0]}

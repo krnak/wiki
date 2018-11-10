@@ -1,3 +1,4 @@
+```sh
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 cat ~/.ssh/id_rsa.pub
 ssh-rsa BBBB3NzaC1yc2EAAA...
