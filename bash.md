@@ -27,7 +27,7 @@ mkdir <dirname> # creater folder / directory
 
 #access
 ls -l 
-chmod 700 soubor.txt
+chmod 700 soubor.txt # ugo = user group others
 0 	---
 1 	--x
 2 	-w-
@@ -36,7 +36,6 @@ chmod 700 soubor.txt
 5 	r-x
 6 	rw-
 7 	rwx
-
 
 
 | #(pipe)

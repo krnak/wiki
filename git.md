@@ -38,3 +38,5 @@ git push origin master
 
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
+git checkout -- . # revert all uncommited changes
+git checkout -- <path> # revert concrete uncommited change
