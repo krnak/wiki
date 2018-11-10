@@ -1,0 +1,12 @@
+grep done
+cat less head tail done
+vim
+sed done
+nmap
+sticky bit done
+
+centos6
+
+sslscan
+testssl -E <host> #cipher table
+testssl <host>
