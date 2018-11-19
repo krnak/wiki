@@ -29,3 +29,5 @@ A # append text to the end
 gg # page start
 G # page end
 % # to find a matching ),], or }
+
+echo set clipboard=unnamed >> ~/.vimrc # to solve vim E353: Nothing in register "

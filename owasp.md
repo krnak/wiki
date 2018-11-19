@@ -51,7 +51,7 @@ web tools
 
 
 ##Read comments
-```
+```sh
 \/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*|<!--[\s\S]*?-->$
 grep -Pn -C 1 -f reg test.html
 ```

@@ -145,3 +145,7 @@ unzip master.zip
 cd phantomjs-linux-armv6l-master
 bzip2 *.bz2 && tar xf *.tar
 sudo cp phantomjs-1.9.0-linux-armv6l/bin/phantomjs  /usr/bin
+```
+ln -s /folderorfile/link/will/point/to /name/of/the/link # add symbolic link
+watch -n 60 ls -l /home/agi/Desktop
+for n in {1..5}; do echo "I WILL NOT SKATEBOARD IN THE HALLS"; done
