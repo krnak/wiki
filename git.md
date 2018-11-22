@@ -1,31 +1,30 @@
 ```sh
 git init
 git status
-git add . #pro nový soubor
+git add . #add file to be commited
 git commit -a
 
 git revert [jmeno commitu/ hash/ HEAD]
-git reset #poslední zmìna
+git reset #revert last change
 
 vi
 i - text mod
 esc
 :wq
 
-git branch #list - aktualni s *
+git branch #list of brances, actual branch with *
 git branch [name] #create
 git checkout [name] [-w instantni prechod] #zmena vetve
-git merge [name] #spoji vetve
+git merge [name] #merge branches
 
 git log [--oneline]//historie
-gitk #gui historie
+gitk #gui history
 
-git diff --- #zeny v souboru od posledniho commitu
+git diff --- #changes in commit since last change
 
 git show -commit- //info
 
-git clone --- #stahne repo
-
+git clone --- #download repo
 git remote add origin https://github.com/user/repo.git
 # Set a new remote
 git remote -v
@@ -38,3 +37,6 @@ git push origin master
 
   git config --global user.email "you@example.com"
   git config --global user.name "Your Name"
+git checkout -- . # revert all uncommited changes
+git checkout -- <path> # revert concrete uncommited change
+```

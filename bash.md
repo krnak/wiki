@@ -27,7 +27,7 @@ mkdir <dirname> # creater folder / directory
 
 #access
 ls -l 
-chmod 700 soubor.txt
+chmod 700 soubor.txt # ugo = user group others
 0 	---
 1 	--x
 2 	-w-
@@ -36,7 +36,6 @@ chmod 700 soubor.txt
 5 	r-x
 6 	rw-
 7 	rwx
-
 
 
 | #(pipe)
@@ -146,3 +145,7 @@ unzip master.zip
 cd phantomjs-linux-armv6l-master
 bzip2 *.bz2 && tar xf *.tar
 sudo cp phantomjs-1.9.0-linux-armv6l/bin/phantomjs  /usr/bin
+```
+ln -s /folderorfile/link/will/point/to /name/of/the/link # add symbolic link
+watch -n 60 ls -l /home/agi/Desktop
+for n in {1..5}; do echo "I WILL NOT SKATEBOARD IN THE HALLS"; done

@@ -1,3 +1,5 @@
+# SSH
+## Commands
 ```sh
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 cat ~/.ssh/id_rsa.pub
@@ -15,3 +17,31 @@ Protocol 2
 groupadd sshusers
 usermod -a -G sshusers agi
 AllowGroups sshusers
+```
+## Config
+config in ~ /.ssh/config and /etc/ssh/ssh_config
+dcit
+```
+Host integra
+Hostname integra.dcit.cz
+User krnak
+Host tatra
+Hostname tatra.dcit.cz
+User krnak
+Host tatraSocks
+Hostname tatra.dcit.cz
+User krnak
+DynamicForward 1080
+Port 22
+```
+Bad owner or permissions on /home/agi/.ssh/config
+```shell
+chown $USER ~/.ssh/config
+chmod 600 ~/.ssh/config
+```
+gimli
+```
+Host gimli
+Hostname gimli.ms.mff.cuni.cz
+User krnak
+```
