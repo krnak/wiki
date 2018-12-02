@@ -100,3 +100,14 @@ pip install Flask
 FLASK_APP=hello.py flask run
  * Running on http://localhost:5000/
 ```
+
+## Running Apache server with Flask app
+
+```sh
+apt install apache2
+pip3 install mod_wsgi-httpd
+pip3 install mod_wsgi
+mod_wsgi-express
+mod_wsgi-express setup-server --user apache/apache2 --group www-data
+# APACHE_RUN_DIR="/var/www/flask_hello_app"
+```
