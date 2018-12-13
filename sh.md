@@ -31,6 +31,7 @@ mkdir <dirname> # creater folder / directory
 #access
 ls -l 
 chmod 700 soubor.txt # ugo = user group others
+chmod -R 700 <file> # change all in dir
 0 	---
 1 	--x
 2 	-w-
@@ -161,4 +162,6 @@ HISTTIMEFORMAT="%d/%m/%y %T " # to show time within history
 #make it pernament
 echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bashrc
 source ~/.bashrc
+
+find <dir> -name <expression>
 ```

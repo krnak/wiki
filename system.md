@@ -4,6 +4,7 @@ firefox
 	mailvelope
 	dustman
 	facebook container
+	google container
 	pop up blocker
 	foxy proxy
 sublime text

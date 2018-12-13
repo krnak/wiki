@@ -106,8 +106,16 @@ FLASK_APP=hello.py flask run
 ```sh
 apt install apache2
 pip3 install mod_wsgi-httpd
-pip3 install mod_wsgi
+pip3 install mod_wsgiexport APACHE_RUN_DIR
+
+# on debian
+# alternatives on https://modwsgi.readthedocs.io/en/develop/user-guides/quick-installation-guide.html#restart-apache-web-server
+invoke-rc.d apache2 stop
+invoke-rc.d apache2 start
 mod_wsgi-express
-mod_wsgi-express setup-server --user apache/apache2 --group www-data
-# APACHE_RUN_DIR="/var/www/flask_hello_app"
+mod_wsgi-express setup-server --user www-data --group www-data --application-type module  --entry-point /var/www/flask_hello_app/hello.py --port 80
+mod_wsgi-express start-server
+
+APACHE_RUN_DIR="/var/www/flask_hello_app"
+export APACHE_RUN_DIR
 ```
