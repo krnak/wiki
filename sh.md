@@ -164,4 +164,7 @@ echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bashrc
 source ~/.bashrc
 
 find <dir> -name <expression>
+
+getent passwd | cut -d':' -f1 # get user list
+runuser -l  userNameHere -c 'command' # run command as another user
 ```

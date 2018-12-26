@@ -115,6 +115,7 @@ invoke-rc.d apache2 start
 mod_wsgi-express
 mod_wsgi-express setup-server --user www-data --group www-data --application-type module  --entry-point /var/www/flask_hello_app/hello.py --port 80
 mod_wsgi-express start-server
+runuser -l  apache -c 'mod_wsgi-express start-server'
 
 APACHE_RUN_DIR="/var/www/flask_hello_app"
 export APACHE_RUN_DIR
