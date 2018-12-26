@@ -164,4 +164,6 @@ echo 'export HISTTIMEFORMAT="%d/%m/%y %T "' >> ~/.bashrc
 source ~/.bashrc
 
 find <dir> -name <expression>
+
+df -h # disk space
 ```
