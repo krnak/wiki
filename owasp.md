@@ -1,15 +1,15 @@
-#Techniques  
+# Techniques  
 -Manual Inspections & Reviews  
 -Threat Modeling  
 -Code Review  
 -Penetration Testing  
   
-#Mode  
+# Mode  
 Pasive - looking for access points (gates)  
 Active - feeding gates  
   
-#Tests  
-##Gathering info  
+# Tests  
+## Gathering info  
 googling  
 [google hacking db](https://www.exploit-db.com/google-hacking-database/)  
 ip  
@@ -17,7 +17,7 @@ ip
 `dig +short <URL>`  
   
   
-##Server type  
+## Server type  
 ```  
 $ curl --head google.com  
 HEAD / HTTP/1.0  
@@ -32,7 +32,7 @@ Content-Length: 1179
 Connection: close  
 Content-Type: text/html  
 ```  
-##Enumerate Aplications  
+## Enumerate Aplications  
 1. Different base URL  
 http://www.example.com/url2  
 2. Non-standard ports  
@@ -50,16 +50,16 @@ web tools
 `curl -iL -X OPTIONS http://www.krnak.cz | grep Allow:`  
   
   
-##Read comments  
+## Read comments  
 ```sh  
 \/\*[\s\S]*?\*\/|([^\\:]|^)\/\/.*|<!--[\s\S]*?-->$  
 grep -Pn -C 1 -f reg test.html  
 ```  
-#Getting interstructure  
+# Getting interstructure  
 Burp spider  
 nikto  
   
-##Testing buffer overflow  
+## Testing buffer overflow  
 Test fromat string information leakage  
 `http://hostname/cgi-bin/query.cgi?name=john%x.%x.%x&code=45765%x.%x`  
   
