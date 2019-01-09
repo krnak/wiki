@@ -168,4 +168,6 @@ find <dir> -name <expression>
 getent passwd | cut -d':' -f1 # get user list  
 runuser -l  userNameHere -c 'command' # run command as another user  
 df -h # disk space  
+
+uname -a # get system version
 ```  

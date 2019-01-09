@@ -1,3 +1,14 @@
+## PostgreSQL
+
+[prikazy](https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/how-to-install-postgresql-10-on-ubuntu-18-04-lts.html)
+
+```sh
+/usr/lib/postgresql/10/bin/pg_ctl -D /var/lib/postgresql/10/main -l logfile start
+sudo systemctl start postgresql
+```
+
+## SQL
+
 ```sql  
 INNER JOIN -- spoji podle klicu (default)  
 OUTER JOIN -- prida nesparovane a doplni NULL sloupcema  
@@ -5,7 +16,8 @@ JOIN ... ON <podminka>
 JOIN ... USING (<nazev_sloupce>)  
 NATURAL JOIN -- vybere pro USING spravny sloupec  
 COPY <tablename> {TO|FROM} <filename>  
-  
+```
+
 # XMLSQL  
 [zdroj](https://www.postgresql.org/docs/9.3/functions-xml.html)  
 ## Functions  
@@ -71,7 +83,8 @@ xmlexists(
 true  
   
 ## XPath  
-  
+
+[xpath syntax](https://www.w3schools.com/xml/xpath_syntax.asp)
 SELECT xpath(  
 	'/my/text', /* path */  
 	'<my>  
@@ -80,5 +93,4 @@ SELECT xpath(
 	</my>' /* xml */  
 )  
 {<text>Prvni</text>,<text>Druhe</text>}  
-  
-```  
+
