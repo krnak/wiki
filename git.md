@@ -40,5 +40,14 @@ git push origin master
 git checkout -- . # revert all uncommited changes  
 git checkout -- <path> # revert concrete uncommited change  
   
-git reset --soft HEAD~1 #remove last commit  
+git reset --soft HEAD~1 #remove last commit
+
+#pretty print of commits
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+git log -n 5 # show last 5 commits
+git log --name-status HEAD^..HEAD # show last commit
+git show --stat # show last commit
+git log -5 --stat # show last 5 commits with details
+
+
 ```
