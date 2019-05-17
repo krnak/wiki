@@ -1,6 +1,6 @@
 # Screen  
 ```sh  
-screen -s "Title" # create titled screen mode  
+screen -S "Title" # create titled screen mode  
 screen -r # return to screen mode
 screen -ls # screens list
 ```   
