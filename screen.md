@@ -1,7 +1,8 @@
 # Screen  
 ```sh  
-screen -s "Title" # create named screen mode  
-screen -r # return to screen mode  
+screen -s "Title" # create titled screen mode  
+screen -r # return to screen mode
+screen -ls # screens list
 ```   
 ## Switch window
 `Ctrl+a c`	new window	   
@@ -22,7 +23,7 @@ screen -r # return to screen mode
 `Ctrl+a d`	detach screen from terminal	Start screen with -r option to reattach  
 `Ctrl+a A`	set window title	   
 `Ctrl+a x`	lock session	Enter user password to unlock  
-`Ctrl+a [	enter scrollback/copy mode	Enter to start and end copy region. Ctrl+a ]` to leave this mode  
+`Ctrl+a [`	enter scrollback/copy mode	Enter to start and end copy region. `Ctrl+a ]` to leave this mode  
 `Ctrl+a ]`	paste buffer	Supports pasting between windows  
 `Ctrl+a >`	write paste buffer to file - useful for copying between screens  
 `Ctrl+a <`	read paste buffer from file - useful for pasting between screens  
