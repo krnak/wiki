@@ -129,6 +129,33 @@ gunicorn server:app
   
 /etc/init.d/lighttpd stop  
 /etc/init.d/lighttpd start  
-/etc/init.d/lighttpd restart  
+/etc/init.d/lighttpd restart
   
-```  
+```
+
+## Runing Flask with gunicorn and nginx
+```
+apt update
+apt upgrade
+apt install python3-pip
+pip3 install gunicorn
+pip3 install flask
+
+screen -S web
+gunicorn index:app
+
+vim /etc/nginx/conf.d/virtual.conf
+```
+```
+server {
+    listen       80;
+    server_name  jsem.tk;
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+    }
+}
+```
+```sh
+service nginx restart
+```
