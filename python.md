@@ -160,3 +160,25 @@ server {
 service nginx restart
 ```
 https://medium.com/ymedialabs-innovation/deploy-flask-app-with-nginx-using-gunicorn-and-supervisor-d7a93aa07c18
+
+## Sublime
+```
+Tools -> Build System -> New Build System
+```
+Windows style
+```
+{
+ "cmd": ["/usr/local/bin/python3", "-u", "$file"],
+ "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+ "selector": "source.python"
+}
+```
+Linux style
+```
+{
+ "cmd":["C:/Users/<user>/AppData/Local/Programs/Python/Python37-32/python.exe", "-u", "$file"],
+ "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+ "selector": "source.python"
+}
+```
+https://medium.com/@hariyanto.tan95/set-up-sublime-text-3-to-use-python-3-c845b742c720
