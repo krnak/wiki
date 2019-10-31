@@ -1,4 +1,5 @@
-#vim editor  
+## vim editor
+```bash
 esc # to command mode  
 i # to insert mode  
 o # to insert mode on the begining of line  
@@ -31,3 +32,4 @@ G # page end
 % # to find a matching ),], or }  
   
 echo set clipboard=unnamed >> ~/.vimrc # to solve vim E353: Nothing in register "  
+```
