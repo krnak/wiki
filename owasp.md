@@ -1,8 +1,8 @@
 # Techniques  
--Manual Inspections & Reviews  
--Threat Modeling  
--Code Review  
--Penetration Testing  
+- Manual Inspections & Reviews  
+- Threat Modeling  
+- Code Review  
+- Penetration Testing  
   
 # Mode  
 Pasive - looking for access points (gates)  
