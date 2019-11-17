@@ -17,7 +17,28 @@ Protocol 2
 groupadd sshusers  
 usermod -a -G sshusers agi  
 AllowGroups sshusers  
-```  
+```
+
+## SCP
+
+Syntax:
+
+```sh
+scp <source> <destination>
+```
+
+To copy a file from B to A while logged into B:
+
+```sh
+scp /path/to/file username@a:/path/to/destination
+```
+
+To copy a file from B to A while logged into A:
+
+```sh
+scp username@b:/path/to/file /path/to/destination
+```
+
 ## Config  
 config in ~ /.ssh/config and /etc/ssh/ssh_config  
 dcit  
