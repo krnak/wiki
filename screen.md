@@ -31,3 +31,6 @@ screen -ls # screens list
 ## Help
 `Ctrl+a ?`	show key bindings/command names	Note unbound commands only in man page  
 `Ctrl+a :`	goto screen command prompt - up shows last command entered
+
+## Scroll
+`Ctrl+a Esc` + `up`/`down`
