@@ -14,9 +14,8 @@
 - `end` presune kurzor na konec radky
 - `(ctrl) + (shift) + home/end` analogicky se sipkami 
 - `(ctrl) + (shift) + PgUp/PgDown` rychlejsi sipky nahoru a dolu  
-
-
-
+  
+  
 - `backspace` smaze symbol pred kurzorem  
 - `ctrl + backspace` smaze slovo pred kurzorem  
 - `delete` smaze symblol za kurzorem  
@@ -28,6 +27,7 @@
 - `ctrl + o` otevre ulozeny dokument  
 - `ctrl + n` otevre novy dokument  
 - `ctrl + p` vetsinou spusti tisk  
+  
   
 - `ctrl + f` spusti vyhledavani  
 - `ctrl + h` spusti prepisovani  
