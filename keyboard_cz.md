@@ -15,6 +15,8 @@
 - `(ctrl) + (shift) + home/end` analogicky se sipkami 
 - `(ctrl) + (shift) + PgUp/PgDown` rychlejsi sipky nahoru a dolu  
 
+
+
 - `backspace` smaze symbol pred kurzorem  
 - `ctrl + backspace` smaze slovo pred kurzorem  
 - `delete` smaze symblol za kurzorem  
