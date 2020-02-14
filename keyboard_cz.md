@@ -1,6 +1,7 @@
 ## Keyboard hacks
 
 ### Prace s textem
+Vyber a kopirovani:
 - `ctrl + c` zkopiruje do schranky  
 - `ctrl + v` vlozi ze schranky  
 - `ctrl + shift + v` vlozi ze schranky bez formatovani (t.j. vlozi cisty text)
@@ -14,12 +15,14 @@
 - `end` presune kurzor na konec radky
 - `(ctrl) + (shift) + home/end` analogicky se sipkami 
 - `(ctrl) + (shift) + PgUp/PgDown` rychlejsi sipky nahoru a dolu  
-  
-  
+Mazani:
 - `backspace` smaze symbol pred kurzorem  
 - `ctrl + backspace` smaze slovo pred kurzorem  
 - `delete` smaze symblol za kurzorem  
 - `ctrl + delete` smaze slovo za kurzorem  
+Konzole:
+- `ctrl + f` spusti vyhledavani  
+- `ctrl + h` spusti prepisovani  
 
 ### Prace se souborem
 - `ctrl + s` ulozi dokument  
@@ -27,10 +30,6 @@
 - `ctrl + o` otevre ulozeny dokument  
 - `ctrl + n` otevre novy dokument  
 - `ctrl + p` vetsinou spusti tisk  
-  
-  
-- `ctrl + f` spusti vyhledavani  
-- `ctrl + h` spusti prepisovani  
 
 ### Prace s pocitacem
 - `super` je klavesa se symbolem windows mezi `ctrl` a `alt`  
