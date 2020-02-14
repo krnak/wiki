@@ -1,7 +1,6 @@
 ## Keyboard hacks
 
 ### Prace s textem
-Vyber a kopirovani:
 - `ctrl + c` zkopiruje do schranky  
 - `ctrl + v` vlozi ze schranky  
 - `ctrl + shift + v` vlozi ze schranky bez formatovani (t.j. vlozi cisty text)
@@ -15,12 +14,12 @@ Vyber a kopirovani:
 - `end` presune kurzor na konec radky
 - `(ctrl) + (shift) + home/end` analogicky se sipkami 
 - `(ctrl) + (shift) + PgUp/PgDown` rychlejsi sipky nahoru a dolu  
-Mazani:
+-  
 - `backspace` smaze symbol pred kurzorem  
 - `ctrl + backspace` smaze slovo pred kurzorem  
 - `delete` smaze symblol za kurzorem  
 - `ctrl + delete` smaze slovo za kurzorem  
-Konzole:
+-  
 - `ctrl + f` spusti vyhledavani  
 - `ctrl + h` spusti prepisovani  
 
@@ -37,7 +36,7 @@ Konzole:
 - `alt + shift` zmena klavesnice ve windows  
 - `super + space` zmena klavesnice v linuxu  
 - `alt + tab` zmena okna  
-  
+-  
 - `f5` nacte znova webovou stranku  
 - `f2` zmeni nazev souboru  
 - `f12` spusti vyvojarske nastroje v prohlizeci  
