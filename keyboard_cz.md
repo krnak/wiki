@@ -36,18 +36,20 @@
 - `alt + shift` zmena klavesnice ve windows  
 - `super + space` zmena klavesnice v linuxu  
 - `alt + tab` zmena okna  
--  
-- `f5` nacte znova webovou stranku  
+-    
 - `f2` zmeni nazev souboru  
-- `f12` spusti vyvojarske nastroje v prohlizeci  
 - `PrtSc` ulozi obrazek aktualni obrazovky do schranky  
 
-### Firefox
+### Prohlizec (Firefox)
 - `ctrl + t` nova stranka
 - `ctrl + shift + t` naposledy zavrena stranka
 - `ctrl + w` zavrit zalozku
+- `ctrl (+ shitf) + tab` vyber zalozky
 - `ctrl + l` vybrat URL zalozky
 - `ctrl + j` vybrat adresni radku
 - `ctrl + <plus>|<minus>|0` zoom in|out|default
-- `ctrl (+ shift) + tab` vyber zalozky
+- `alt + left|right` zpet|dopredu
+- `f5` nebo `ctrl  + R` nacte znova webovou stranku  
+- `f2` zmeni nazev souboru  
 - `f11` roztahnout na celou obrazovku
+- `f12` spusti vyvojarske nastroje v prohlizeci  
