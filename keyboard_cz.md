@@ -41,3 +41,13 @@
 - `f2` zmeni nazev souboru  
 - `f12` spusti vyvojarske nastroje v prohlizeci  
 - `PrtSc` ulozi obrazek aktualni obrazovky do schranky  
+
+### Firefox
+- `ctrl + t` nova stranka
+- `ctrl + shift + t` naposledy zavrena stranka
+- `ctrl + w` zavrit zalozku
+- `ctrl + l` vybrat URL zalozky
+- `ctrl + j` vybrat adresni radku
+- `ctrl + <plus>|<minus>|0` zoom in|out|default
+- `ctrl (+ shift) + tab` vyber zalozky
+- `f11` roztahnout na celou obrazovku
