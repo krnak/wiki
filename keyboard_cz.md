@@ -1,5 +1,6 @@
 ## Keyboard hacks
-
+> Lide maji tendenci podhodnocovat mnozstvi casu, ktere venuji uceni se zachazeni s nastroji, ktere pak pouzivaji kazdy den.
+> <cite>Medved</cite>
 ### Prace s textem
 - `ctrl + c` zkopiruje do schranky  
 - `ctrl + v` vlozi ze schranky  
@@ -21,7 +22,9 @@
 - `ctrl + delete` smaze slovo za kurzorem  
 -  
 - `ctrl + f` spusti vyhledavani  
-- `ctrl + h` spusti prepisovani  
+- `ctrl + h` spusti prepisovani (Sublimetext)
+- 
+- `ctrl + z` vrati posledni upravu
 
 ### Prace se souborem
 - `ctrl + s` ulozi dokument  
@@ -41,15 +44,25 @@
 - `PrtSc` ulozi obrazek aktualni obrazovky do schranky  
 
 ### Prohlizec (Firefox)
-- `ctrl + t` nova stranka
-- `ctrl + shift + t` naposledy zavrena stranka
+- `ctrl + t` nova zalozka
+- `ctrl + shift + t` naposledy zavrena zalozka
 - `ctrl + w` zavrit zalozku
 - `ctrl (+ shitf) + tab` vyber zalozky
 - `ctrl + l` vybrat URL zalozky
 - `ctrl + j` vybrat adresni radku
 - `ctrl + <plus>|<minus>|0` zoom in|out|default
 - `alt + left|right` zpet|dopredu
-- `f5` nebo `ctrl  + R` nacte znova webovou stranku  
-- `f2` zmeni nazev souboru  
-- `f11` roztahnout na celou obrazovku
+- `f5` nebo `ctrl  + r` nacte znova webovou stranku  
+- `f11` roztahnout na celou obrazovku  
 - `f12` spusti vyvojarske nastroje v prohlizeci  
+### Formulare
+- `tab` dalsi policko
+- `shift + tab` predchozi policko
+- `enter` vybrat (napr. tlacitko odeslat)
+### Formatovani textu
+- `ctrl + b` tucne
+- `ctrl + i` italika
+- vyber text + `ctrl + k` vlozit odkaz (Gmail)
+- vyber text + `ctrl + shift + 9` citovat (Gmail)
+- `ctrl + shift + <minus>|<plus> ` zmensi | zvetsi text (Gmail)
+- `ctrl + shift + < | >` zmensi | zvetsi text (Google docs
