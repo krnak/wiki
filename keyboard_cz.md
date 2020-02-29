@@ -1,6 +1,6 @@
 ## Keyboard hacks
 > Lide maji tendenci podhodnocovat mnozstvi casu, ktere venuji uceni se zachazeni s nastroji, ktere pak pouzivaji kazdy den.
-> <cite>Medved</cite>
+>  ~Medved
 ### Prace s textem
 - `ctrl + c` zkopiruje do schranky  
 - `ctrl + v` vlozi ze schranky  
