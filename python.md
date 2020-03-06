@@ -161,6 +161,11 @@ service nginx restart
 ```
 https://medium.com/ymedialabs-innovation/deploy-flask-app-with-nginx-using-gunicorn-and-supervisor-d7a93aa07c18
 
+```sh
+apt install python-certbot-nginx
+certbot --nginx
+```
+
 ## Sublime
 ```
 Tools -> Build System -> New Build System
