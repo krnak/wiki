@@ -20,3 +20,9 @@ is equivalent to
 ip.src != 10.43.54.65 or ip.dst != 10.43.54.65  
 ```  
   
+## Run on Linux
+
+```sh
+sudo usermod -a -G wireshark $USER
+chmod +x /usr/bin/dumpcap
+```
