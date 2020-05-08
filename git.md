@@ -1,7 +1,8 @@
 ```sh  
 git init  
 git status  
-git add . #add file to be commited  
+git add . #add file to be commited
+git reset # to reverse git add
 git commit -a  
   
 git revert [jmeno commitu/ hash/ HEAD]  
