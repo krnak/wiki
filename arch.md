@@ -16,6 +16,6 @@ sudo pacman -U zoom_x86_64.pkg.tar.xz
 
 tlauncher
 ```sh
-sudo iptables -I INPUT -p udp --dport 4445 -j ACCEPT -m comment --comment "minecraft"
+ufw
 ```
-[rules](https://gist.github.com/Maxopoly/6c925a1f18f9e2f3b9818d1c1582b17e)
+[rules](https://github.com/nocliq/IPtables-Firewall-setup/blob/master/setiptables.sh)
