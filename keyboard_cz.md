@@ -1,6 +1,7 @@
 ## Keyboard hacks
 > Lide maji tendenci podhodnocovat mnozstvi casu, ktere venuji uceni se zachazeni s nastroji, ktere pak pouzivaji kazdy den.
 >  ~Medved
+
 Z pocatku je toho hodne. Zkratky/klavesy, ktere povazuji za esencialni, jsem oznacil 🐋.
 ### Prace s textem
 - `ctrl + c` 🐋 zkopiruje do schranky  
