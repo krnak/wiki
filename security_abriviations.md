@@ -41,6 +41,7 @@
 - SFHE - somewhat homomorphic encryption
 - KEM - key encaptulation mechanism
 - DEM - data encaptulation mechanism
+- FDH - full domain hash - hash and sign based signature
 
 ## Others
 
