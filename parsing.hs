@@ -2,6 +2,10 @@ import Text.ParserCombinators.Parsec hiding ((<|>), many)
 import Control.Applicative
 import Control.Monad
 
+infixl 3 <||>
+(<||>) :: Parser a -> Parser a -> Parser a
+a <||> b = try a <|> b
+
 matchTrue :: Parser String
 matchTrue = string "true"
 
