@@ -187,3 +187,13 @@ Linux style
 }
 ```
 https://medium.com/@hariyanto.tan95/set-up-sublime-text-3-to-use-python-3-c845b742c720
+
+
+## Virtual env
+
+```sh
+python3.8 -m venv my_app_venv
+source my_app_venv/bin/activate
+python --version
+deactivate
+```
