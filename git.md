@@ -50,5 +50,7 @@ git log --name-status HEAD^..HEAD # show last commit
 git show --stat # show last commit
 git log -5 --stat # show last 5 commits with details
 
-
+# overwrite a file
+git checkout HEAD^ file/to/overwrite
+git pull
 ```
