@@ -9,6 +9,7 @@ passwd kevin
 ```sh
 sudo pacman -Syu # upgrade all
 makepkg -si # from src + install
+sudo pacman -S base-devel
 sudo pacman -U zoom_x86_64.pkg.tar.xz
 ```
 
