@@ -23,3 +23,19 @@ tlauncher
 ufw
 ```
 [rules](https://github.com/nocliq/IPtables-Firewall-setup/blob/master/setiptables.sh)
+
+## Packages
+
+official
+```
+firefox
+base-devel
+signal-desktop
+cups
+cups-pdf
+hplip
+```
+aur
+```
+foo2zjs
+```
