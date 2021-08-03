@@ -197,3 +197,9 @@ source my_app_venv/bin/activate
 python --version
 deactivate
 ```
+
+## Package developement
+
+```sh
+pip install -e ./
+```
