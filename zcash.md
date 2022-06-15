@@ -43,5 +43,6 @@ https://zcash.readthedocs.io/en/latest/lightwalletd/index.html
 ```sh
 grpcurl mainnet.lightwalletd.com:9067 cash.z.wallet.sdk.rpc.CompactTxStreamer/GetLightdInfo
 grpcurl -d '{"addresses":["tmQoJ3PTXgQLaRRZZYT6xk8XtjRbr2kCqwu"]}' testnet.lightwalletd.com:9067 cash.z.wallet.sdk.rpc.CompactTxStreamer/GetTaddressBalance
+grpcurl -d '{"height":1916226}' testnet.lightwalletd.com:9067 cash.z.wallet.sdk.rpc.CompactTxStreamer/GetBlock
 
 ```
